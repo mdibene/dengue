@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/d3-color.v1.min.js"></script>
+  <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.13.0/d3-legend.min.js"></script>
+  <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="colorbrewer.js"></script>
+
+  <style>
+    /* Style for Custom Tooltip */
+
+    .tooltip {
+      position: absolute;
+      text-align: center;
+      width: 80px;
+      padding: 0px;
+      font: 9px sans-serif;
+      background: white;
+      border: 0px;
+      border-radius: 4px;
+      pointer-events: none;
+    }
+
+    .tooltip-inner {
+      white-space: pre-wrap;
+    }
+
+    .legend {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    text {
+      font: 9px sans-serif;
+    }
+
+    h2 {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 100%;
+      text-align: left;
+      color: black;
+    }
+
+    .d3-tip {
+      line-height: 1;
+      font-size: 10px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 2px;
+      text-align: center;
+    }
+
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+    }
+    /* Style northward tooltips differently */
+
+    .d3-tip.n:after {
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+    }
+
+    .bar {
+      fill: DarkKhaki;
+    }
+
+    .bar:hover {
+      fill: orangered;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+      display: none;
+    }
+  </style>
+
+  <script type="text/javascript">
+    var margin = 75,
+      width = 1200 - margin,
+      height = 600 - margin;
+
+    var margin_bar = {
+        top: 27,
+        right: 11,
+        bottom: 22,
+        left: 27
+      },
+      svgBarsWidth = 660 - margin_bar.left - margin_bar.right,
+      svgBarsHeight = 344 - margin_bar.top - margin_bar.bottom;
+
+    var projection = d3.geo.mercator()
+      .scale(600)
+      .translate([width / 1.3, height / 3.5]);
+
+    /* map:  year => maximum of cases in the year */
+    var map_ano_max_casos = new Map();
+
+    /* number of ranges used in legend scale: values and colors */
+    var incidence_range = 5;
+
+    /*
+      legenda - receives a year scale and generate the
+      legend of the color scale.
+    */
+    function legenda(input_scale) {
+
+      var texto = "Número de casos";
+
+      legendLinear = d3.legend.color()
+        .labelFormat(d3.format(".1s"))
+        .shapeWidth(75) //legend width
+        .orient('horizontal')
+        .scale(input_scale)
+        .title(texto)
+        .labelDelimiter(" - ")
+        /* legend text in the middle */
+        .labelAlign("middle")
+        /* legend text distance from color scale */
+        .labelOffset(2);
+
+      d3.select("svg#map g#legend").call(legendLinear);
+
+    } //function legenda
+
+    /*
+      fill_geo_map - generate the choropleth for the received year.
+    */
+    function fill_geo_map(year) {
+
+      var max_casos = map_ano_max_casos.get(year);
+      var step = max_casos / incidence_range;
+
+      /*
+        the scale range should be a number rounded to a certain decimal order.
+        The next expression calculates the number of decimal orders in step and
+        return the new value - step_round - to be used in scale.
+      */
+      var step_round = Math.round(step / Math.pow(10, Math.floor(Math.log10(step)))) * Math.pow(10, Math.floor(Math.log10(step)));
+
+      /*
+        The color scale is a quantize and the last range
+        should include max(casos) => (max_casos + step_round)
+        The color brewer scales: http://bl.ocks.org/mhkeller/10504471
+        colorbrewer.YlGn colorbrewer.BuGn colorbrewer.OrRd
+      */
+      var scale_color = d3.scale.quantize()
+        .domain(d3.range(0, (max_casos + step_round), step_round))
+        .range(colorbrewer.BuGn[incidence_range]);
+
+      var svg = d3.select("svg#map");
+      var div_tooltip = d3.select(".tooltip");
+      var index_ano = 0;
+
+      /* update the year in the map title */
+      d3.select("svg#map text#map_title")
+        .text("Mapa de Ocorrência da Dengue no Brasil - " + year);
+
+      svg.selectAll('path')
+        .style("fill", function(d) {
+          for (var i = 0; i < d.properties.dengue.length; i++) {
+            var ano = d.properties.dengue[i].ano;
+            if (ano === year) {
+              index_ano = i;
+              break;
+            } //if
+          } //for i
+          /* return the scale color for the number of dengue
+          ocurrences for the year */
+          return scale_color(d.properties.dengue[index_ano].casos);
+        })
+        .on("mouseover", function(d) {
+          div_tooltip.transition()
+            .duration(200)
+            .style("opacity", .7);
+          div_tooltip.html(d.properties.nome_uf + "<br/>" + d.properties.dengue[index_ano].casos)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        });
+      /* generate the legend for this year scale */
+      legenda(scale_color);
+
+    } //function fill_geo_map(year)
+
+    /*
+      generate_index - receives a map structure with maximum cases per
+      year and generate a bar index below the geographic map.
+    */
+    function generate_index(map_ano_max_casos, map_ano_max_casos_uf) {
+
+      var data_keys = [];
+      var data_values = [];
+      var data_uf = [];
+      var index = 0;
+
+      /* create auxiliary data arrays */
+      for (var [key, value] of map_ano_max_casos) {
+        data_keys[index] = key;
+        data_values[index] = value;
+        index++;
+      }
+
+      for (var i = 0; i < data_keys.length; i++) {
+        data_uf[i] = map_ano_max_casos_uf.get(data_keys[i]);
+      }
+
+      /* function to access year by index */
+      var f_keys = function(index) {
+        return data_keys[index]
+      };
+
+      barOuterPad = .9
+      barPad = .05
+      var x = d3.scale.ordinal()
+        .rangeRoundBands([0, svgBarsWidth], barPad, barOuterPad)
+
+      var y0 = d3.scale
+        .linear()
+        .range([svgBarsHeight, 0]);
+
+      x.domain(data_keys.map(function(d) {
+        return d;
+      }));
+
+      y0.domain([0, d3.max(data_values, function(d) {
+        return d;
+      })]);
+
+      var xAxis = d3.svg
+        .axis()
+        .scale(x)
+        .orient("bottom");
+
+      var yAxisLeft = d3.svg
+        .axis()
+        .scale(y0)
+        .orient("left")
+        .tickFormat(d3.format(".1s"));
+
+      /*
+       Create the tip to be shown in each bar.
+       The tip contents are: UF name with max cases in the year
+       and the value of max cases
+      */
+      var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function(d, i) {
+          return "UF: " + data_uf[i] + " <br/> <span style='color:orangered'>" + data_values[i];
+        });
+
+      d3.select("svg#bars g.bars")
+        .call(tip);
+
+      var x_axis_vert_pos = svgBarsHeight + 26;
+
+      /*
+       Create the x-axis used in the index.
+      */
+      d3.select("svg#bars")
+        .append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(" + margin_bar.left + "," + x_axis_vert_pos + ")")
+        .call(xAxis)
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.1em")
+        .attr("dy", ".5em")
+        .attr("transform", "rotate(-40)");
+
+      var xaxis_label_pos_x = svgBarsWidth + margin_bar.right + 10;
+      var xaxis_label_pos_y = x_axis_vert_pos + 20;
+
+      /* text label for the x axis */
+      d3.select("svg#bars").append("text")
+        .attr("transform", "translate(" + (xaxis_label_pos_x) + "," + xaxis_label_pos_y + ")")
+        .text("Ano");
+
+      /*
+       Create the y-axis used in the index.
+      */
+      d3.select("svg#bars")
+        .append("g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(41, 26)")
+        .call(yAxisLeft)
+        .append("text")
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Nr. de Casos")
+        .attr("transform", "translate(11, -20)");
+
+      /*
+       Create the vertical bars used in the index.
+      */
+      d3.select("svg#bars g.bars")
+        .selectAll(".bar")
+        .data(data_values)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d, i) {
+          /* Return the year */
+          return x(f_keys(i));
+        })
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) {
+          return y0(d);
+        })
+        .attr("height", function(d) {
+          return svgBarsHeight - y0(d);
+        })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+        .on('click', function(d, i) {
+          /* Make the choropleth for the year */
+          fill_geo_map(f_keys(i));
+        });
+    } //	function generate_index
+
+    /*
+      draw  - receives the dengue database, load the geographic map and
+      merge the dengue data with map data.
+    */
+    function draw(data) {
+
+      d3.select("body")
+        .append("h2")
+        .text("Casos de Dengue nos Últimos 27 Anos");
+
+      /* The bar graph index */
+      var index = d3.select("body")
+        .append("svg")
+        .attr("id", "bars")
+        .attr("width", svgBarsWidth + margin_bar.left + margin_bar.right)
+        .attr("height", svgBarsHeight + margin_bar.top + margin_bar.bottom)
+        .append("g")
+        .attr("class", "bars")
+        .attr("transform", "translate(" + margin_bar.left + "," + margin_bar.top + ")");
+
+      /* The title for the bar graph index */
+      index.append("text")
+        .attr("class", "text")
+        .attr("x", (svgBarsWidth / 2))
+        .attr("y", 60)
+        .attr("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text("Estado com o Maior Números de Casos no Ano");
+
+      /* The choropleth */
+      var svg = d3.select("body")
+        .append("svg")
+        .attr('id', 'map')
+        .attr("width", width + margin)
+        .attr("height", height + margin)
+
+      /* The title for the choropleth */
+      svg.append("text")
+        .attr("class", "text")
+        .attr('id', 'map_title')
+        .attr("x", ((svgBarsWidth + margin) / 2))
+        .attr("y", 30 - (margin_bar.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text("Mapa de Ocorrência da Dengue no Brasil");
+
+      /* legend container */
+      svg.append("g")
+        .attr("id", "legend")
+        .attr("transform", "translate(120, 40)");
+
+      /* Append div for choropleth tooltip */
+      var div = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      var path = d3.geo.path().projection(projection);
+
+      /*load the geographic map */
+      d3.json("brasil_estados.geojson", function(geo_data) {
+
+        //nest dengue data by sigla (abbreviation)
+        var nested_dengue_data = d3.nest()
+          .key(function(d) {
+            return d.sigla;
+          })
+          .entries(data);
+
+        /*Iterate over nested_dengue_data and insert into geo_data */
+        for (var i = 0; i < nested_dengue_data.length; i++) {
+          var data_state_sigla = nested_dengue_data[i].key;
+          for (var j = 0; j < geo_data.features.length; j++) {
+            var jsonStateSigla = geo_data.features[j].properties.uf_05;
+            if (data_state_sigla === jsonStateSigla) {
+              geo_data.features[j].properties.dengue = nested_dengue_data[i].values;
+              break;
+            } //if data_state_sigla
+          } //for j
+        } //for i
+
+        /*
+          nest dengue data by year and return maximum
+          of dengue cases per year.
+        */
+        var nested_dengue_ano_max_casos = d3.nest()
+          .key(function(d) {
+            return d.ano;
+          })
+          .rollup(function(v) {
+            return d3.max(v, function(d) {
+              return d.casos;
+            });
+          })
+          .entries(data);
+
+        /*
+          iterate over nested_dengue_ano_max_casos and
+          populate map ano => max_casos
+        */
+        for (var i = 0; i < nested_dengue_ano_max_casos.length; i++) {
+          map_ano_max_casos.set(nested_dengue_ano_max_casos[i].key, nested_dengue_ano_max_casos[i].values);
+        } //for i
+
+        var map_ano_max_casos_uf = new Map();
+        var estado;
+
+        /*
+        data is an array of dict => {estado:"", sigla:"", regiao:"", ano:"", casos:"", date:""}
+        Iterate over data and populate map ano_max_casos => sigla
+        */
+        for (var i = 0; i < nested_dengue_ano_max_casos.length; i++) {
+          ano = nested_dengue_ano_max_casos[i].key;
+          casos = nested_dengue_ano_max_casos[i].values;
+          for (var j = 0; j < data.length; j++) {
+            item = data[j];
+            if (item["ano"] == ano && item["casos"] == casos) {
+              estado = item["estado"]
+              map_ano_max_casos_uf.set(ano, estado);
+            } // if
+          } //for j
+        } //for i
+
+        var years = Array.from(map_ano_max_casos.keys());
+
+        /* init map with tooltip over each state */
+        svg.append("g")
+          .attr("id", "countries")
+          .selectAll('path')
+          .data(geo_data.features)
+          .enter()
+          .append('path')
+          .attr('d', path)
+          .style('fill', '#edf8fb')
+          .style('stroke', 'black')
+          .style('stroke-width', 0.5)
+          /* tooltip for each state */
+          .on("mouseover", function(d) {
+            div.transition()
+              .duration(200)
+              .style("opacity", .7);
+            div.text(d.properties.nome_uf)
+              .style("left", (d3.event.pageX) + "px")
+              .style("top", (d3.event.pageY - 28) + "px");
+          })
+          /* fade out tooltip on mouse out */
+          .on("mouseout", function(d) {
+            div.transition()
+              .duration(400)
+              .style("opacity", 0);
+          });
+        generate_index(map_ano_max_casos, map_ano_max_casos_uf);
+      }) //d3.json function(geo_data)
+    }; //function draw()
+  </script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    /* Load the dengue data file and callback draw.  */
+    d3.csv("casos_dengue_brasil.csv", function(d) {
+      d['casos'] = +d['casos'];
+      d['date'] = +d['date'];
+      return d;
+    }, draw);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,730 @@
+estado,sigla,regiao,ano,casos
+Rondonia,RO,Norte,1990,0
+Rondonia,RO,Norte,1991,0
+Rondonia,RO,Norte,1992,0
+Rondonia,RO,Norte,1993,0
+Rondonia,RO,Norte,1994,0
+Rondonia,RO,Norte,1995,0
+Rondonia,RO,Norte,1996,0
+Rondonia,RO,Norte,1997,55
+Rondonia,RO,Norte,1998,23
+Rondonia,RO,Norte,1999,699
+Rondonia,RO,Norte,2000,3193
+Rondonia,RO,Norte,2001,1668
+Rondonia,RO,Norte,2002,1472
+Rondonia,RO,Norte,2003,2971
+Rondonia,RO,Norte,2004,3048
+Rondonia,RO,Norte,2005,5672
+Rondonia,RO,Norte,2006,4123
+Rondonia,RO,Norte,2007,3118
+Rondonia,RO,Norte,2008,5765
+Rondonia,RO,Norte,2009,18767
+Rondonia,RO,Norte,2010,20294
+Rondonia,RO,Norte,2011,3219
+Rondonia,RO,Norte,2012,3292
+Rondonia,RO,Norte,2013,8732
+Rondonia,RO,Norte,2014,1985
+Rondonia,RO,Norte,2015,2211
+Rondonia,RO,Norte,2016,7769
+Acre,AC,Norte,1990,0
+Acre,AC,Norte,1991,0
+Acre,AC,Norte,1992,0
+Acre,AC,Norte,1993,0
+Acre,AC,Norte,1994,0
+Acre,AC,Norte,1995,0
+Acre,AC,Norte,1996,0
+Acre,AC,Norte,1997,0
+Acre,AC,Norte,1998,0
+Acre,AC,Norte,1999,0
+Acre,AC,Norte,2000,1295
+Acre,AC,Norte,2001,2050
+Acre,AC,Norte,2002,888
+Acre,AC,Norte,2003,954
+Acre,AC,Norte,2004,4422
+Acre,AC,Norte,2005,2196
+Acre,AC,Norte,2006,258
+Acre,AC,Norte,2007,518
+Acre,AC,Norte,2008,2129
+Acre,AC,Norte,2009,19085
+Acre,AC,Norte,2010,35162
+Acre,AC,Norte,2011,18865
+Acre,AC,Norte,2012,2393
+Acre,AC,Norte,2013,2568
+Acre,AC,Norte,2014,28269
+Acre,AC,Norte,2015,5317
+Acre,AC,Norte,2016,2335
+Amazonas,AM,Norte,1990,0
+Amazonas,AM,Norte,1991,0
+Amazonas,AM,Norte,1992,0
+Amazonas,AM,Norte,1993,0
+Amazonas,AM,Norte,1994,0
+Amazonas,AM,Norte,1995,0
+Amazonas,AM,Norte,1996,0
+Amazonas,AM,Norte,1997,0
+Amazonas,AM,Norte,1998,13894
+Amazonas,AM,Norte,1999,186
+Amazonas,AM,Norte,2000,6343
+Amazonas,AM,Norte,2001,19249
+Amazonas,AM,Norte,2002,2188
+Amazonas,AM,Norte,2003,3971
+Amazonas,AM,Norte,2004,902
+Amazonas,AM,Norte,2005,998
+Amazonas,AM,Norte,2006,578
+Amazonas,AM,Norte,2007,1938
+Amazonas,AM,Norte,2008,8755
+Amazonas,AM,Norte,2009,1591
+Amazonas,AM,Norte,2010,7524
+Amazonas,AM,Norte,2011,61986
+Amazonas,AM,Norte,2012,5167
+Amazonas,AM,Norte,2013,17832
+Amazonas,AM,Norte,2014,6661
+Amazonas,AM,Norte,2015,3792
+Amazonas,AM,Norte,2016,8125
+Roraima,RR,Norte,1990,0
+Roraima,RR,Norte,1991,0
+Roraima,RR,Norte,1992,0
+Roraima,RR,Norte,1993,0
+Roraima,RR,Norte,1994,0
+Roraima,RR,Norte,1995,0
+Roraima,RR,Norte,1996,409
+Roraima,RR,Norte,1997,380
+Roraima,RR,Norte,1998,258
+Roraima,RR,Norte,1999,1999
+Roraima,RR,Norte,2000,4108
+Roraima,RR,Norte,2001,3782
+Roraima,RR,Norte,2002,1206
+Roraima,RR,Norte,2003,4971
+Roraima,RR,Norte,2004,558
+Roraima,RR,Norte,2005,2328
+Roraima,RR,Norte,2006,954
+Roraima,RR,Norte,2007,876
+Roraima,RR,Norte,2008,5016
+Roraima,RR,Norte,2009,3073
+Roraima,RR,Norte,2010,7590
+Roraima,RR,Norte,2011,1451
+Roraima,RR,Norte,2012,1874
+Roraima,RR,Norte,2013,945
+Roraima,RR,Norte,2014,1123
+Roraima,RR,Norte,2015,1097
+Roraima,RR,Norte,2016,246
+Para,PA,Norte,1990,0
+Para,PA,Norte,1991,0
+Para,PA,Norte,1992,0
+Para,PA,Norte,1993,0
+Para,PA,Norte,1994,0
+Para,PA,Norte,1995,28
+Para,PA,Norte,1996,321
+Para,PA,Norte,1997,20877
+Para,PA,Norte,1998,10934
+Para,PA,Norte,1999,4157
+Para,PA,Norte,2000,8505
+Para,PA,Norte,2001,16564
+Para,PA,Norte,2002,11362
+Para,PA,Norte,2003,9617
+Para,PA,Norte,2004,5521
+Para,PA,Norte,2005,7988
+Para,PA,Norte,2006,6436
+Para,PA,Norte,2007,13920
+Para,PA,Norte,2008,15982
+Para,PA,Norte,2009,7498
+Para,PA,Norte,2010,15568
+Para,PA,Norte,2011,19240
+Para,PA,Norte,2012,16246
+Para,PA,Norte,2013,9166
+Para,PA,Norte,2014,4496
+Para,PA,Norte,2015,7803
+Para,PA,Norte,2016,10852
+Amapa,AP,Norte,1990,0
+Amapa,AP,Norte,1991,0
+Amapa,AP,Norte,1992,0
+Amapa,AP,Norte,1993,0
+Amapa,AP,Norte,1994,0
+Amapa,AP,Norte,1995,0
+Amapa,AP,Norte,1996,0
+Amapa,AP,Norte,1997,0
+Amapa,AP,Norte,1998,26
+Amapa,AP,Norte,1999,4
+Amapa,AP,Norte,2000,0
+Amapa,AP,Norte,2001,3193
+Amapa,AP,Norte,2002,845
+Amapa,AP,Norte,2003,3932
+Amapa,AP,Norte,2004,2564
+Amapa,AP,Norte,2005,2338
+Amapa,AP,Norte,2006,1713
+Amapa,AP,Norte,2007,3500
+Amapa,AP,Norte,2008,1177
+Amapa,AP,Norte,2009,1568
+Amapa,AP,Norte,2010,3242
+Amapa,AP,Norte,2011,2803
+Amapa,AP,Norte,2012,1569
+Amapa,AP,Norte,2013,1708
+Amapa,AP,Norte,2014,2190
+Amapa,AP,Norte,2015,3297
+Amapa,AP,Norte,2016,1798
+Tocantins,TO,Norte,1990,0
+Tocantins,TO,Norte,1991,2194
+Tocantins,TO,Norte,1992,0
+Tocantins,TO,Norte,1993,0
+Tocantins,TO,Norte,1994,18
+Tocantins,TO,Norte,1995,3193
+Tocantins,TO,Norte,1996,1965
+Tocantins,TO,Norte,1997,862
+Tocantins,TO,Norte,1998,1883
+Tocantins,TO,Norte,1999,83
+Tocantins,TO,Norte,2000,1242
+Tocantins,TO,Norte,2001,4803
+Tocantins,TO,Norte,2002,1969
+Tocantins,TO,Norte,2003,1869
+Tocantins,TO,Norte,2004,1477
+Tocantins,TO,Norte,2005,3293
+Tocantins,TO,Norte,2006,5692
+Tocantins,TO,Norte,2007,12682
+Tocantins,TO,Norte,2008,10122
+Tocantins,TO,Norte,2009,4029
+Tocantins,TO,Norte,2010,9252
+Tocantins,TO,Norte,2011,11834
+Tocantins,TO,Norte,2012,11617
+Tocantins,TO,Norte,2013,8596
+Tocantins,TO,Norte,2014,3652
+Tocantins,TO,Norte,2015,7894
+Tocantins,TO,Norte,2016,7886
+Maranhao,MA,Nordeste,1990,0
+Maranhao,MA,Nordeste,1991,0
+Maranhao,MA,Nordeste,1992,0
+Maranhao,MA,Nordeste,1993,0
+Maranhao,MA,Nordeste,1994,0
+Maranhao,MA,Nordeste,1995,1776
+Maranhao,MA,Nordeste,1996,6312
+Maranhao,MA,Nordeste,1997,6102
+Maranhao,MA,Nordeste,1998,12171
+Maranhao,MA,Nordeste,1999,1523
+Maranhao,MA,Nordeste,2000,3613
+Maranhao,MA,Nordeste,2001,6235
+Maranhao,MA,Nordeste,2002,8360
+Maranhao,MA,Nordeste,2003,5836
+Maranhao,MA,Nordeste,2004,1580
+Maranhao,MA,Nordeste,2005,6537
+Maranhao,MA,Nordeste,2006,4931
+Maranhao,MA,Nordeste,2007,13354
+Maranhao,MA,Nordeste,2008,5734
+Maranhao,MA,Nordeste,2009,2251
+Maranhao,MA,Nordeste,2010,5778
+Maranhao,MA,Nordeste,2011,11777
+Maranhao,MA,Nordeste,2012,5325
+Maranhao,MA,Nordeste,2013,3588
+Maranhao,MA,Nordeste,2014,2652
+Maranhao,MA,Nordeste,2015,7943
+Maranhao,MA,Nordeste,2016,24167
+Piaui,PI,Nordeste,1990,0
+Piaui,PI,Nordeste,1991,0
+Piaui,PI,Nordeste,1992,0
+Piaui,PI,Nordeste,1993,0
+Piaui,PI,Nordeste,1994,26
+Piaui,PI,Nordeste,1995,3260
+Piaui,PI,Nordeste,1996,5777
+Piaui,PI,Nordeste,1997,2841
+Piaui,PI,Nordeste,1998,14626
+Piaui,PI,Nordeste,1999,2179
+Piaui,PI,Nordeste,2000,6756
+Piaui,PI,Nordeste,2001,10284
+Piaui,PI,Nordeste,2002,8793
+Piaui,PI,Nordeste,2003,9525
+Piaui,PI,Nordeste,2004,850
+Piaui,PI,Nordeste,2005,4217
+Piaui,PI,Nordeste,2006,4666
+Piaui,PI,Nordeste,2007,9662
+Piaui,PI,Nordeste,2008,2424
+Piaui,PI,Nordeste,2009,4006
+Piaui,PI,Nordeste,2010,7137
+Piaui,PI,Nordeste,2011,10060
+Piaui,PI,Nordeste,2012,12255
+Piaui,PI,Nordeste,2013,4987
+Piaui,PI,Nordeste,2014,7657
+Piaui,PI,Nordeste,2015,7646
+Piaui,PI,Nordeste,2016,5242
+Ceara,CE,Nordeste,1990,15656
+Ceara,CE,Nordeste,1991,6703
+Ceara,CE,Nordeste,1992,0
+Ceara,CE,Nordeste,1993,7
+Ceara,CE,Nordeste,1994,47221
+Ceara,CE,Nordeste,1995,1991
+Ceara,CE,Nordeste,1996,2099
+Ceara,CE,Nordeste,1997,6590
+Ceara,CE,Nordeste,1998,13389
+Ceara,CE,Nordeste,1999,377
+Ceara,CE,Nordeste,2000,1323
+Ceara,CE,Nordeste,2001,33986
+Ceara,CE,Nordeste,2002,19586
+Ceara,CE,Nordeste,2003,33182
+Ceara,CE,Nordeste,2004,3849
+Ceara,CE,Nordeste,2005,26942
+Ceara,CE,Nordeste,2006,28306
+Ceara,CE,Nordeste,2007,34353
+Ceara,CE,Nordeste,2008,54661
+Ceara,CE,Nordeste,2009,7883
+Ceara,CE,Nordeste,2010,21246
+Ceara,CE,Nordeste,2011,63206
+Ceara,CE,Nordeste,2012,54831
+Ceara,CE,Nordeste,2013,30219
+Ceara,CE,Nordeste,2014,22756
+Ceara,CE,Nordeste,2015,63116
+Ceara,CE,Nordeste,2016,50897
+Rio Grande do Norte,RN,Nordeste,1990,0
+Rio Grande do Norte,RN,Nordeste,1991,0
+Rio Grande do Norte,RN,Nordeste,1992,0
+Rio Grande do Norte,RN,Nordeste,1993,0
+Rio Grande do Norte,RN,Nordeste,1994,345
+Rio Grande do Norte,RN,Nordeste,1995,5181
+Rio Grande do Norte,RN,Nordeste,1996,6608
+Rio Grande do Norte,RN,Nordeste,1997,25579
+Rio Grande do Norte,RN,Nordeste,1998,17850
+Rio Grande do Norte,RN,Nordeste,1999,7943
+Rio Grande do Norte,RN,Nordeste,2000,16563
+Rio Grande do Norte,RN,Nordeste,2001,37431
+Rio Grande do Norte,RN,Nordeste,2002,21761
+Rio Grande do Norte,RN,Nordeste,2003,20766
+Rio Grande do Norte,RN,Nordeste,2004,2605
+Rio Grande do Norte,RN,Nordeste,2005,4730
+Rio Grande do Norte,RN,Nordeste,2006,8134
+Rio Grande do Norte,RN,Nordeste,2007,12994
+Rio Grande do Norte,RN,Nordeste,2008,35600
+Rio Grande do Norte,RN,Nordeste,2009,2654
+Rio Grande do Norte,RN,Nordeste,2010,7846
+Rio Grande do Norte,RN,Nordeste,2011,23171
+Rio Grande do Norte,RN,Nordeste,2012,28778
+Rio Grande do Norte,RN,Nordeste,2013,18905
+Rio Grande do Norte,RN,Nordeste,2014,11498
+Rio Grande do Norte,RN,Nordeste,2015,22700
+Rio Grande do Norte,RN,Nordeste,2016,57508
+Paraiba,PB,Nordeste,1990,0
+Paraiba,PB,Nordeste,1991,0
+Paraiba,PB,Nordeste,1992,0
+Paraiba,PB,Nordeste,1993,0
+Paraiba,PB,Nordeste,1994,0
+Paraiba,PB,Nordeste,1995,1701
+Paraiba,PB,Nordeste,1996,12068
+Paraiba,PB,Nordeste,1997,52701
+Paraiba,PB,Nordeste,1998,58612
+Paraiba,PB,Nordeste,1999,25
+Paraiba,PB,Nordeste,2000,32
+Paraiba,PB,Nordeste,2001,14947
+Paraiba,PB,Nordeste,2002,18618
+Paraiba,PB,Nordeste,2003,12780
+Paraiba,PB,Nordeste,2004,1340
+Paraiba,PB,Nordeste,2005,5772
+Paraiba,PB,Nordeste,2006,3047
+Paraiba,PB,Nordeste,2007,10732
+Paraiba,PB,Nordeste,2008,8442
+Paraiba,PB,Nordeste,2009,951
+Paraiba,PB,Nordeste,2010,6667
+Paraiba,PB,Nordeste,2011,12602
+Paraiba,PB,Nordeste,2012,8771
+Paraiba,PB,Nordeste,2013,13466
+Paraiba,PB,Nordeste,2014,5625
+Paraiba,PB,Nordeste,2015,23426
+Paraiba,PB,Nordeste,2016,35688
+Pernambuco,PE,Nordeste,1990,0
+Pernambuco,PE,Nordeste,1991,0
+Pernambuco,PE,Nordeste,1992,0
+Pernambuco,PE,Nordeste,1993,0
+Pernambuco,PE,Nordeste,1994,0
+Pernambuco,PE,Nordeste,1995,9982
+Pernambuco,PE,Nordeste,1996,22722
+Pernambuco,PE,Nordeste,1997,32627
+Pernambuco,PE,Nordeste,1998,52633
+Pernambuco,PE,Nordeste,1999,14322
+Pernambuco,PE,Nordeste,2000,24785
+Pernambuco,PE,Nordeste,2001,13233
+Pernambuco,PE,Nordeste,2002,99652
+Pernambuco,PE,Nordeste,2003,15165
+Pernambuco,PE,Nordeste,2004,2275
+Pernambuco,PE,Nordeste,2005,5389
+Pernambuco,PE,Nordeste,2006,8262
+Pernambuco,PE,Nordeste,2007,22380
+Pernambuco,PE,Nordeste,2008,20137
+Pernambuco,PE,Nordeste,2009,2882
+Pernambuco,PE,Nordeste,2010,34590
+Pernambuco,PE,Nordeste,2011,22101
+Pernambuco,PE,Nordeste,2012,31799
+Pernambuco,PE,Nordeste,2013,7985
+Pernambuco,PE,Nordeste,2014,10488
+Pernambuco,PE,Nordeste,2015,110899
+Pernambuco,PE,Nordeste,2016,65152
+Alagoas,AL,Nordeste,1990,294
+Alagoas,AL,Nordeste,1991,1317
+Alagoas,AL,Nordeste,1992,0
+Alagoas,AL,Nordeste,1993,781
+Alagoas,AL,Nordeste,1994,344
+Alagoas,AL,Nordeste,1995,794
+Alagoas,AL,Nordeste,1996,2596
+Alagoas,AL,Nordeste,1997,7666
+Alagoas,AL,Nordeste,1998,9078
+Alagoas,AL,Nordeste,1999,1088
+Alagoas,AL,Nordeste,2000,915
+Alagoas,AL,Nordeste,2001,1980
+Alagoas,AL,Nordeste,2002,7438
+Alagoas,AL,Nordeste,2003,6080
+Alagoas,AL,Nordeste,2004,4455
+Alagoas,AL,Nordeste,2005,2608
+Alagoas,AL,Nordeste,2006,3010
+Alagoas,AL,Nordeste,2007,10566
+Alagoas,AL,Nordeste,2008,13740
+Alagoas,AL,Nordeste,2009,3978
+Alagoas,AL,Nordeste,2010,47358
+Alagoas,AL,Nordeste,2011,8909
+Alagoas,AL,Nordeste,2012,28123
+Alagoas,AL,Nordeste,2013,11296
+Alagoas,AL,Nordeste,2014,13186
+Alagoas,AL,Nordeste,2015,27130
+Alagoas,AL,Nordeste,2016,17301
+Sergipe,SE,Nordeste,1990,0
+Sergipe,SE,Nordeste,1991,0
+Sergipe,SE,Nordeste,1992,0
+Sergipe,SE,Nordeste,1993,0
+Sergipe,SE,Nordeste,1994,0
+Sergipe,SE,Nordeste,1995,0
+Sergipe,SE,Nordeste,1996,3162
+Sergipe,SE,Nordeste,1997,11187
+Sergipe,SE,Nordeste,1998,27311
+Sergipe,SE,Nordeste,1999,9097
+Sergipe,SE,Nordeste,2000,6786
+Sergipe,SE,Nordeste,2001,3490
+Sergipe,SE,Nordeste,2002,5133
+Sergipe,SE,Nordeste,2003,4720
+Sergipe,SE,Nordeste,2004,421
+Sergipe,SE,Nordeste,2005,649
+Sergipe,SE,Nordeste,2006,1118
+Sergipe,SE,Nordeste,2007,1485
+Sergipe,SE,Nordeste,2008,29645
+Sergipe,SE,Nordeste,2009,1824
+Sergipe,SE,Nordeste,2010,803
+Sergipe,SE,Nordeste,2011,3927
+Sergipe,SE,Nordeste,2012,4558
+Sergipe,SE,Nordeste,2013,801
+Sergipe,SE,Nordeste,2014,2246
+Sergipe,SE,Nordeste,2015,9141
+Sergipe,SE,Nordeste,2016,3509
+Bahia,BA,Nordeste,1990,0
+Bahia,BA,Nordeste,1991,0
+Bahia,BA,Nordeste,1992,0
+Bahia,BA,Nordeste,1993,0
+Bahia,BA,Nordeste,1994,1892
+Bahia,BA,Nordeste,1995,34507
+Bahia,BA,Nordeste,1996,64435
+Bahia,BA,Nordeste,1997,45453
+Bahia,BA,Nordeste,1998,21896
+Bahia,BA,Nordeste,1999,979
+Bahia,BA,Nordeste,2000,9318
+Bahia,BA,Nordeste,2001,27996
+Bahia,BA,Nordeste,2002,77426
+Bahia,BA,Nordeste,2003,42154
+Bahia,BA,Nordeste,2004,4407
+Bahia,BA,Nordeste,2005,17777
+Bahia,BA,Nordeste,2006,6563
+Bahia,BA,Nordeste,2007,9343
+Bahia,BA,Nordeste,2008,37425
+Bahia,BA,Nordeste,2009,98867
+Bahia,BA,Nordeste,2010,45429
+Bahia,BA,Nordeste,2011,39612
+Bahia,BA,Nordeste,2012,48473
+Bahia,BA,Nordeste,2013,61110
+Bahia,BA,Nordeste,2014,13827
+Bahia,BA,Nordeste,2015,55211
+Bahia,BA,Nordeste,2016,65351
+Minas Gerais,MG,Sudeste,1990,0
+Minas Gerais,MG,Sudeste,1991,286
+Minas Gerais,MG,Sudeste,1992,0
+Minas Gerais,MG,Sudeste,1993,3863
+Minas Gerais,MG,Sudeste,1994,0
+Minas Gerais,MG,Sudeste,1995,2832
+Minas Gerais,MG,Sudeste,1996,5250
+Minas Gerais,MG,Sudeste,1997,5355
+Minas Gerais,MG,Sudeste,1998,147402
+Minas Gerais,MG,Sudeste,1999,2128
+Minas Gerais,MG,Sudeste,2000,8003
+Minas Gerais,MG,Sudeste,2001,31955
+Minas Gerais,MG,Sudeste,2002,38082
+Minas Gerais,MG,Sudeste,2003,14213
+Minas Gerais,MG,Sudeste,2004,13602
+Minas Gerais,MG,Sudeste,2005,10929
+Minas Gerais,MG,Sudeste,2006,28713
+Minas Gerais,MG,Sudeste,2007,28287
+Minas Gerais,MG,Sudeste,2008,52088
+Minas Gerais,MG,Sudeste,2009,55146
+Minas Gerais,MG,Sudeste,2010,214552
+Minas Gerais,MG,Sudeste,2011,40343
+Minas Gerais,MG,Sudeste,2012,29456
+Minas Gerais,MG,Sudeste,2013,416252
+Minas Gerais,MG,Sudeste,2014,58177
+Minas Gerais,MG,Sudeste,2015,192779
+Minas Gerais,MG,Sudeste,2016,528441
+Espirito Santo,ES,Sudeste,1990,0
+Espirito Santo,ES,Sudeste,1991,0
+Espirito Santo,ES,Sudeste,1992,0
+Espirito Santo,ES,Sudeste,1993,0
+Espirito Santo,ES,Sudeste,1994,0
+Espirito Santo,ES,Sudeste,1995,2725
+Espirito Santo,ES,Sudeste,1996,5715
+Espirito Santo,ES,Sudeste,1997,12934
+Espirito Santo,ES,Sudeste,1998,39216
+Espirito Santo,ES,Sudeste,1999,691
+Espirito Santo,ES,Sudeste,2000,17497
+Espirito Santo,ES,Sudeste,2001,7618
+Espirito Santo,ES,Sudeste,2002,24726
+Espirito Santo,ES,Sudeste,2003,28115
+Espirito Santo,ES,Sudeste,2004,3420
+Espirito Santo,ES,Sudeste,2005,2662
+Espirito Santo,ES,Sudeste,2006,9263
+Espirito Santo,ES,Sudeste,2007,6790
+Espirito Santo,ES,Sudeste,2008,25357
+Espirito Santo,ES,Sudeste,2009,38146
+Espirito Santo,ES,Sudeste,2010,26081
+Espirito Santo,ES,Sudeste,2011,40336
+Espirito Santo,ES,Sudeste,2012,11961
+Espirito Santo,ES,Sudeste,2013,67995
+Espirito Santo,ES,Sudeste,2014,18879
+Espirito Santo,ES,Sudeste,2015,35441
+Espirito Santo,ES,Sudeste,2016,41736
+Rio de Janeiro,RJ,Sudeste,1990,19685
+Rio de Janeiro,RJ,Sudeste,1991,85891
+Rio de Janeiro,RJ,Sudeste,1992,1658
+Rio de Janeiro,RJ,Sudeste,1993,623
+Rio de Janeiro,RJ,Sudeste,1994,287
+Rio de Janeiro,RJ,Sudeste,1995,35240
+Rio de Janeiro,RJ,Sudeste,1996,16225
+Rio de Janeiro,RJ,Sudeste,1997,2304
+Rio de Janeiro,RJ,Sudeste,1998,32382
+Rio de Janeiro,RJ,Sudeste,1999,519
+Rio de Janeiro,RJ,Sudeste,2000,3220
+Rio de Janeiro,RJ,Sudeste,2001,61401
+Rio de Janeiro,RJ,Sudeste,2002,248493
+Rio de Janeiro,RJ,Sudeste,2003,5470
+Rio de Janeiro,RJ,Sudeste,2004,1152
+Rio de Janeiro,RJ,Sudeste,2005,1184
+Rio de Janeiro,RJ,Sudeste,2006,26150
+Rio de Janeiro,RJ,Sudeste,2007,56202
+Rio de Janeiro,RJ,Sudeste,2008,235353
+Rio de Janeiro,RJ,Sudeste,2009,7964
+Rio de Janeiro,RJ,Sudeste,2010,29824
+Rio de Janeiro,RJ,Sudeste,2011,165787
+Rio de Janeiro,RJ,Sudeste,2012,181169
+Rio de Janeiro,RJ,Sudeste,2013,213058
+Rio de Janeiro,RJ,Sudeste,2014,7717
+Rio de Janeiro,RJ,Sudeste,2015,73437
+Rio de Janeiro,RJ,Sudeste,2016,85200
+Sao Paulo,SP,Sudeste,1990,3038
+Sao Paulo,SP,Sudeste,1991,3662
+Sao Paulo,SP,Sudeste,1992,38
+Sao Paulo,SP,Sudeste,1993,638
+Sao Paulo,SP,Sudeste,1994,681
+Sao Paulo,SP,Sudeste,1995,6048
+Sao Paulo,SP,Sudeste,1996,7104
+Sao Paulo,SP,Sudeste,1997,2040
+Sao Paulo,SP,Sudeste,1998,10630
+Sao Paulo,SP,Sudeste,1999,21781
+Sao Paulo,SP,Sudeste,2000,4186
+Sao Paulo,SP,Sudeste,2001,58487
+Sao Paulo,SP,Sudeste,2002,44286
+Sao Paulo,SP,Sudeste,2003,16684
+Sao Paulo,SP,Sudeste,2004,3045
+Sao Paulo,SP,Sudeste,2005,6160
+Sao Paulo,SP,Sudeste,2006,60369
+Sao Paulo,SP,Sudeste,2007,114872
+Sao Paulo,SP,Sudeste,2008,12605
+Sao Paulo,SP,Sudeste,2009,12003
+Sao Paulo,SP,Sudeste,2010,207546
+Sao Paulo,SP,Sudeste,2011,114884
+Sao Paulo,SP,Sudeste,2012,29152
+Sao Paulo,SP,Sudeste,2013,220921
+Sao Paulo,SP,Sudeste,2014,226866
+Sao Paulo,SP,Sudeste,2015,745622
+Sao Paulo,SP,Sudeste,2016,202896
+Parana,PR,Sul,1990,0
+Parana,PR,Sul,1991,0
+Parana,PR,Sul,1992,0
+Parana,PR,Sul,1993,0
+Parana,PR,Sul,1994,0
+Parana,PR,Sul,1995,3116
+Parana,PR,Sul,1996,5201
+Parana,PR,Sul,1997,716
+Parana,PR,Sul,1998,2702
+Parana,PR,Sul,1999,15
+Parana,PR,Sul,2000,1184
+Parana,PR,Sul,2001,1581
+Parana,PR,Sul,2002,7197
+Parana,PR,Sul,2003,10991
+Parana,PR,Sul,2004,152
+Parana,PR,Sul,2005,1050
+Parana,PR,Sul,2006,1223
+Parana,PR,Sul,2007,27200
+Parana,PR,Sul,2008,1924
+Parana,PR,Sul,2009,1525
+Parana,PR,Sul,2010,38173
+Parana,PR,Sul,2011,35438
+Parana,PR,Sul,2012,4508
+Parana,PR,Sul,2013,66100
+Parana,PR,Sul,2014,22701
+Parana,PR,Sul,2015,45542
+Parana,PR,Sul,2016,64305
+Santa Catarina,SC,Sul,1990,0
+Santa Catarina,SC,Sul,1991,0
+Santa Catarina,SC,Sul,1992,0
+Santa Catarina,SC,Sul,1993,0
+Santa Catarina,SC,Sul,1994,0
+Santa Catarina,SC,Sul,1995,0
+Santa Catarina,SC,Sul,1996,3
+Santa Catarina,SC,Sul,1997,5
+Santa Catarina,SC,Sul,1998,140
+Santa Catarina,SC,Sul,1999,8
+Santa Catarina,SC,Sul,2000,23
+Santa Catarina,SC,Sul,2001,38
+Santa Catarina,SC,Sul,2002,292
+Santa Catarina,SC,Sul,2003,58
+Santa Catarina,SC,Sul,2004,14
+Santa Catarina,SC,Sul,2005,49
+Santa Catarina,SC,Sul,2006,54
+Santa Catarina,SC,Sul,2007,149
+Santa Catarina,SC,Sul,2008,104
+Santa Catarina,SC,Sul,2009,49
+Santa Catarina,SC,Sul,2010,189
+Santa Catarina,SC,Sul,2011,177
+Santa Catarina,SC,Sul,2012,94
+Santa Catarina,SC,Sul,2013,358
+Santa Catarina,SC,Sul,2014,134
+Santa Catarina,SC,Sul,2015,4441
+Santa Catarina,SC,Sul,2016,5150
+Rio Grande do Sul,RS,Sul,1990,0
+Rio Grande do Sul,RS,Sul,1991,0
+Rio Grande do Sul,RS,Sul,1992,0
+Rio Grande do Sul,RS,Sul,1993,0
+Rio Grande do Sul,RS,Sul,1994,0
+Rio Grande do Sul,RS,Sul,1995,0
+Rio Grande do Sul,RS,Sul,1996,9
+Rio Grande do Sul,RS,Sul,1997,0
+Rio Grande do Sul,RS,Sul,1998,107
+Rio Grande do Sul,RS,Sul,1999,28
+Rio Grande do Sul,RS,Sul,2000,25
+Rio Grande do Sul,RS,Sul,2001,55
+Rio Grande do Sul,RS,Sul,2002,436
+Rio Grande do Sul,RS,Sul,2003,59
+Rio Grande do Sul,RS,Sul,2004,20
+Rio Grande do Sul,RS,Sul,2005,41
+Rio Grande do Sul,RS,Sul,2006,70
+Rio Grande do Sul,RS,Sul,2007,423
+Rio Grande do Sul,RS,Sul,2008,138
+Rio Grande do Sul,RS,Sul,2009,67
+Rio Grande do Sul,RS,Sul,2010,3646
+Rio Grande do Sul,RS,Sul,2011,363
+Rio Grande do Sul,RS,Sul,2012,170
+Rio Grande do Sul,RS,Sul,2013,445
+Rio Grande do Sul,RS,Sul,2014,153
+Rio Grande do Sul,RS,Sul,2015,1698
+Rio Grande do Sul,RS,Sul,2016,3195
+Mato Grosso do Sul,MS,Centro-Oeste,1990,1606
+Mato Grosso do Sul,MS,Centro-Oeste,1991,4346
+Mato Grosso do Sul,MS,Centro-Oeste,1992,0
+Mato Grosso do Sul,MS,Centro-Oeste,1993,570
+Mato Grosso do Sul,MS,Centro-Oeste,1994,1154
+Mato Grosso do Sul,MS,Centro-Oeste,1995,5115
+Mato Grosso do Sul,MS,Centro-Oeste,1996,3364
+Mato Grosso do Sul,MS,Centro-Oeste,1997,4985
+Mato Grosso do Sul,MS,Centro-Oeste,1998,2578
+Mato Grosso do Sul,MS,Centro-Oeste,1999,4688
+Mato Grosso do Sul,MS,Centro-Oeste,2000,4194
+Mato Grosso do Sul,MS,Centro-Oeste,2001,9334
+Mato Grosso do Sul,MS,Centro-Oeste,2002,12182
+Mato Grosso do Sul,MS,Centro-Oeste,2003,2091
+Mato Grosso do Sul,MS,Centro-Oeste,2004,311
+Mato Grosso do Sul,MS,Centro-Oeste,2005,617
+Mato Grosso do Sul,MS,Centro-Oeste,2006,11358
+Mato Grosso do Sul,MS,Centro-Oeste,2007,69412
+Mato Grosso do Sul,MS,Centro-Oeste,2008,829
+Mato Grosso do Sul,MS,Centro-Oeste,2009,14027
+Mato Grosso do Sul,MS,Centro-Oeste,2010,63519
+Mato Grosso do Sul,MS,Centro-Oeste,2011,8510
+Mato Grosso do Sul,MS,Centro-Oeste,2012,9202
+Mato Grosso do Sul,MS,Centro-Oeste,2013,78958
+Mato Grosso do Sul,MS,Centro-Oeste,2014,3423
+Mato Grosso do Sul,MS,Centro-Oeste,2015,32241
+Mato Grosso do Sul,MS,Centro-Oeste,2016,44814
+Mato Grosso,MT,Centro-Oeste,1990,0
+Mato Grosso,MT,Centro-Oeste,1991,0
+Mato Grosso,MT,Centro-Oeste,1992,0
+Mato Grosso,MT,Centro-Oeste,1993,892
+Mato Grosso,MT,Centro-Oeste,1994,1367
+Mato Grosso,MT,Centro-Oeste,1995,11628
+Mato Grosso,MT,Centro-Oeste,1996,6016
+Mato Grosso,MT,Centro-Oeste,1997,3562
+Mato Grosso,MT,Centro-Oeste,1998,8787
+Mato Grosso,MT,Centro-Oeste,1999,4
+Mato Grosso,MT,Centro-Oeste,2000,291
+Mato Grosso,MT,Centro-Oeste,2001,2362
+Mato Grosso,MT,Centro-Oeste,2002,8978
+Mato Grosso,MT,Centro-Oeste,2003,9408
+Mato Grosso,MT,Centro-Oeste,2004,2294
+Mato Grosso,MT,Centro-Oeste,2005,6524
+Mato Grosso,MT,Centro-Oeste,2006,9451
+Mato Grosso,MT,Centro-Oeste,2007,16227
+Mato Grosso,MT,Centro-Oeste,2008,7052
+Mato Grosso,MT,Centro-Oeste,2009,52219
+Mato Grosso,MT,Centro-Oeste,2010,35443
+Mato Grosso,MT,Centro-Oeste,2011,6146
+Mato Grosso,MT,Centro-Oeste,2012,32856
+Mato Grosso,MT,Centro-Oeste,2013,35190
+Mato Grosso,MT,Centro-Oeste,2014,7160
+Mato Grosso,MT,Centro-Oeste,2015,21583
+Mato Grosso,MT,Centro-Oeste,2016,19940
+Goias,GO,Centro-Oeste,1990,0
+Goias,GO,Centro-Oeste,1991,0
+Goias,GO,Centro-Oeste,1992,0
+Goias,GO,Centro-Oeste,1993,0
+Goias,GO,Centro-Oeste,1994,3343
+Goias,GO,Centro-Oeste,1995,8191
+Goias,GO,Centro-Oeste,1996,6316
+Goias,GO,Centro-Oeste,1997,3709
+Goias,GO,Centro-Oeste,1998,6412
+Goias,GO,Centro-Oeste,1999,147
+Goias,GO,Centro-Oeste,2000,1618
+Goias,GO,Centro-Oeste,2001,10530
+Goias,GO,Centro-Oeste,2002,21936
+Goias,GO,Centro-Oeste,2003,8504
+Goias,GO,Centro-Oeste,2004,5635
+Goias,GO,Centro-Oeste,2005,18058
+Goias,GO,Centro-Oeste,2006,23770
+Goias,GO,Centro-Oeste,2007,14820
+Goias,GO,Centro-Oeste,2008,39075
+Goias,GO,Centro-Oeste,2009,43411
+Goias,GO,Centro-Oeste,2010,102071
+Goias,GO,Centro-Oeste,2011,33960
+Goias,GO,Centro-Oeste,2012,24517
+Goias,GO,Centro-Oeste,2013,139375
+Goias,GO,Centro-Oeste,2014,93929
+Goias,GO,Centro-Oeste,2015,167427
+Goias,GO,Centro-Oeste,2016,123195
+Distrito Federal,DF,Centro-Oeste,1990,0
+Distrito Federal,DF,Centro-Oeste,1991,0
+Distrito Federal,DF,Centro-Oeste,1992,0
+Distrito Federal,DF,Centro-Oeste,1993,0
+Distrito Federal,DF,Centro-Oeste,1994,13
+Distrito Federal,DF,Centro-Oeste,1995,0
+Distrito Federal,DF,Centro-Oeste,1996,85
+Distrito Federal,DF,Centro-Oeste,1997,709
+Distrito Federal,DF,Centro-Oeste,1998,2775
+Distrito Federal,DF,Centro-Oeste,1999,0
+Distrito Federal,DF,Centro-Oeste,2000,200
+Distrito Federal,DF,Centro-Oeste,2001,1531
+Distrito Federal,DF,Centro-Oeste,2002,3166
+Distrito Federal,DF,Centro-Oeste,2003,889
+Distrito Federal,DF,Centro-Oeste,2004,255
+Distrito Federal,DF,Centro-Oeste,2005,331
+Distrito Federal,DF,Centro-Oeste,2006,468
+Distrito Federal,DF,Centro-Oeste,2007,1120
+Distrito Federal,DF,Centro-Oeste,2008,1401
+Distrito Federal,DF,Centro-Oeste,2009,805
+Distrito Federal,DF,Centro-Oeste,2010,15018
+Distrito Federal,DF,Centro-Oeste,2011,3325
+Distrito Federal,DF,Centro-Oeste,2012,1435
+Distrito Federal,DF,Centro-Oeste,2013,11951
+Distrito Federal,DF,Centro-Oeste,2014,11657
+Distrito Federal,DF,Centro-Oeste,2015,9854
+Distrito Federal,DF,Centro-Oeste,2016,17837
